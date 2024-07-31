@@ -37,4 +37,4 @@ RUN chown -R $USER:$GROUP $APP_HOME
 
 USER $USER
 
-ENTRYPOINT [ "./hello"
+ENTRYPOINT [ "./hello" ]
