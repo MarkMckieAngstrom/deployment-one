@@ -5,7 +5,7 @@
 FROM golang:1.21.5-alpine as builder
 
 ENV GO111MODULE=on
-WORKDIR /go/src/oidc-authservice
+#WORKDIR /go/src/oidc-authservice
 # Download all dependencies
 COPY go.mod .
 RUN go mod download
