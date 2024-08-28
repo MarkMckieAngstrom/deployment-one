@@ -5,7 +5,7 @@
 FROM golang:1.21.5-alpine as builder
 
 ENV GO111MODULE=on
-WORKDIR /app
+WORKDIR /workdir/root/deployment-one
 # Download all dependencies
 COPY go.mod .
 RUN go mod download
